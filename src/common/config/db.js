@@ -11,9 +11,9 @@ export default {
     mysql: {
       host: '127.0.0.1',
       port: '3306',
-      database: 'liblog',
+      database: 'chblog',
       user: 'root',
-      password: '',
+      password: 'root',
       prefix: 'li_',
       encoding: 'utf8'
     },

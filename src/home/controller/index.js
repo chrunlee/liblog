@@ -13,7 +13,6 @@ export default class extends Base {
 
       let setting=await this.model('home').findOne('system_comment');
       this.assign("setting",setting);
-
       return this.displayView('index_index');
   }
 
